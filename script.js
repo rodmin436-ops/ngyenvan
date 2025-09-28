@@ -20,7 +20,8 @@
 })(jQuery);
 
 // Apply input filter to search fields
-$(document).ready(function () {
+$(document).ready(function () {$('.tbc2').addClass('tbc2c');
+$('.ovltbc2').addClass('tbc2c');})
   $("#s1 input").inputFilter(function (value) {
     return /^-?\d*$/.test(value);
   });
